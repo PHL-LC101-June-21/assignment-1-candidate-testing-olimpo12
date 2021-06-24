@@ -26,8 +26,7 @@ candidateName= input.question("What is your name?");
 
 function askQuestion() {
   // TODO 1.2b: Ask candidate the question and assign the response as candidateAnswer //
-let candidateAnswer=input.question("Who was the first American woman in space?");
-info=candidateAnswer
+candidateAnswer=input.question("Who was the first American woman in space?");
 }
 
 ////prompted user for answer and added variable to organize value
@@ -36,11 +35,10 @@ function gradeQuiz(candidateAnswers) {
 
   // TODO 1.2c: Let the candidate know if they have answered the question correctly or incorrectly // 
 
-let candidateAnswer=true
 
-if(!candidateAnswer){console.log("False!");
+if(candidateAnswer== correctAnswer){console.log("True!");
 }
-else{console.log("True!");
+else{console.log("False!");
   }
 
   ////responded to user's question with if, else statement
